@@ -1,10 +1,11 @@
 import React from 'react'
 import NavigationLeftBar from './navigation/NavigationLeftBar'
+import Header from './Header'
 
 const Home = () => {
   return (
     <div>
-        <NavigationLeftBar />
+        <Header/>
     </div>
   )
 }
